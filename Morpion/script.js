@@ -143,7 +143,7 @@ function tileClick(event) {
       strike.classList.add(strikeClass);
       if (tileValue1 === "X") {
         gameOverScreen(playerName.value);
-        scorePlayer += 0.5
+        scorePlayer += 1
       }else {
         gameOverScreen("COMPUTER");
         scoreBot += 1
